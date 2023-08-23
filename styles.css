@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #fdfaf3;
+}
+
+h1 {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.navbar-heading {
+  padding: 16px;
+  margin: 0;
+  border-right: 2px solid black;
+}
+
+.left-border {
+  border-right: 0px solid black;
+  border-left: 2px solid black;
+}
+
+.orange {
+  color: #ff4d00;
+}
+
+.main-body {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 60%;
+}
+.right {
+  border-left: 2px solid #000;
+  width: 40%;
+  object-fit: contain;
+}
+
+#div-1 {
+  padding: 16px;
+  border-bottom: 2px solid black;
+  padding-bottom: 24px;
+}
+
+.capsule-container {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.capsules {
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 8px;
+  margin: 8px;
+
+  width: 100px;
+  text-align: center;
+}
+
+.text {
+  font-size: 20px;
+  margin: 0;
+}
+.div-2 {
+  padding: 16px;
+  border-bottom: 2px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+#div-4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
